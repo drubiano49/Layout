@@ -1,0 +1,159 @@
+img {width: 70px}
+
+c1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+c2{
+    display: flex;
+    flex-direction: column;
+}
+
+c3{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 150px;
+}
+
+c4{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+}
+
+c5{
+    display: flex;
+    flex-wrap: wrap;
+    resize: both;
+    overflow: auto;
+    justify-content: center;
+
+    background-color: lightskyblue;
+}
+
+c6 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
+.p5 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.p2{
+    background-color: lightyellow;
+}
+
+.p3 {
+  background-color: lightyellow;
+  flex: 0 1 150px;
+  margin: 5px;
+  }
+
+  .p4-1 {
+  background-color:lightyellow;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+
+  }
+
+  .p4-2 {
+  background-color: lightpink;
+  }
+
+  .p5-1 {
+        background-color:lightyellow;
+  }
+
+  .p5-2 {
+    background-color: lightsalmon;
+  }
+
+  .p5-3 {
+    background-color: lightpink;
+  }
+
+  .p6 {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    background-color: lightskyblue;
+  }
+
+  .p6-1 {
+    background-color:lightpink;
+    grid-column: 1 / 4;
+  }
+
+  .p6-2 {
+    background-color: lightblue;
+  }
+
+  .p6-3 {
+    background-color: lightsalmon;
+  }
+
+  .p6-4 {
+    background-color: lightyellow;
+  }
+
+  .p6-5 {
+    background-color: lightgreen;
+    grid-column: 1 / 4;
+  }
+
+  .p7{
+    resize: both;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .p7-1 {
+    background-color:lightpink;
+  }
+
+  .p7-2 {
+    background-color: lightblue;
+  }
+
+    .p7-3 {
+      background-color: lightsalmon;
+    }
+
+    .p7-4 {
+      background-color: lightyellow;
+    }
+
+    .p8 {
+      resize: both;
+      overflow: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      padding: 1em;
+      border: 1px solid blue;
+    }
+
+    .p8-1 {
+      background-color:lightpink;
+    }
+
+    .p8-2 {
+      background-color: lightblue;
+    }
+
+    .p8-3 {
+      background-color: lightsalmon;
+    }
+
+    .p8-4 {
+      background-color: lightyellow;
+    }
